@@ -1,1 +1,5 @@
 .idea
+.WebMonitor/db.sqlite
+.WebMonitor/common/migrations
+.WebMonitor/launches/migrations
+.WebMonitor/logs.log
