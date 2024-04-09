@@ -9,7 +9,7 @@ This project about a long way
 
 ## Composition:
 
-- Solidol = 35% 
+- Sorbitol = 35% 
 - KNO3 = 65% 
 - Reservation(I don't know how it's in English. This is a small
 layer of non-flammable substance. For example, I use paper impregnated with 
