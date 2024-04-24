@@ -13,8 +13,18 @@
     <link rel="stylesheet" href="{% static 'common/css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'common/css/common-style.css' %}">
 
-    <script src="{% static 'common/js/popper.min.js' %}" async></script>
-    <script src="{% static 'common/js/bootstrap.min.js' %}" defer></script>
+    <script src="{% static 'common/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'common/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'common/js/bootstrap.esm.min.js' %}"></script>
+    {#    <script src="{% static 'common/js/index.js' %}"></script>#}
+
+    <script>
+    const button = document.getElementById('');
+    const tooltip = new bootstrap.Tooltip(button, {
+    boundary: document.body
+    });
+    </script>
+
 
     <title>{% block title %}{% endblock %}</title>
 </head>
